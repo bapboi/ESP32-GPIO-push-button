@@ -8,7 +8,7 @@ this program currently replaces a push button on a Hunter fan remote by introduc
 
 in the same directory include "wificonfig.h", where you define \
 `WIFI_SSID = your ssid`\
-`WIFI_PASSWORD = your password`\
+`WIFI_PASSWORD = your password`
 
 on the esp32-wroom-32, GPIO pins 25 and 26 are used. configure according to your esp32 model and which pins are available, and ensure a path to ground is still available from the esp32 to whatever environment you are using.
 
